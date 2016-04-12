@@ -16,13 +16,13 @@ const tests = {
     comb
 };
 
-Object.keys(tests).forEach((item)=> {
+Object.keys(tests).forEach((item: string)=> {
     describe(`Sort ${item}`, ()=> {
-        const sort = tests[item];
+        const sort: Function = tests[item];
 
         it('Should sort long array', ()=> {
-            let arr = [1, 5, 9, 12, -10, 0, 15, 20, 100, 4];
-            let arrCorrect = [-10, 0, 1, 4, 5, 9, 12, 15, 20, 100];
+            let arr: Array<number> = [1, 5, 9, 12, -10, 0, 15, 20, 100, 4];
+            let arrCorrect: Array<number> = [-10, 0, 1, 4, 5, 9, 12, 15, 20, 100];
 
             expect(sort(arr)).to.eql(arrCorrect);
         });
