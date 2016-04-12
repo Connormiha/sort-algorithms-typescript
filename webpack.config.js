@@ -1,11 +1,7 @@
 'use strict';
 
 module.exports = {
-	entry: './src/app.ts',
-	output: {
-		path: `${__dirname}/build`,
-		filename: 'test/sort.ts'
-	},
+	entry: './test/sort.ts',
 	resolve: {
 		modulesDirectories: ['node_modules'],
 		extensions:         ['', '.js', '.ts']
@@ -18,9 +14,5 @@ module.exports = {
 				exclude: /node_modules/
 			}
 		],
-	},
-	devServer: {
-		host: 'localhost',
-		post: 8080
 	}
 };

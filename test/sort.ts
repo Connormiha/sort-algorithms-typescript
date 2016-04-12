@@ -1,9 +1,19 @@
 import {expect} from 'chai';
 
 import bubble from '../src/bubble';
+import bubble_v2 from '../src/bubble_v2';
+import insertion from '../src/insertion';
+import insertion_v2 from '../src/insertion_v2';
+import cocktail from '../src/cocktail';
+import comb from '../src/comb';
 
 const tests = {
-    bubble
+    bubble,
+    bubble_v2,
+    insertion,
+    insertion_v2,
+    cocktail,
+    comb
 };
 
 Object.keys(tests).forEach((item)=> {
