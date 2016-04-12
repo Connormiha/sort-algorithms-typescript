@@ -1,0 +1,9 @@
+{
+  "ambientDependencies": {
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2",
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654"
+  },
+  "dependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160402210230"
+  }
+}

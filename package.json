@@ -1,0 +1,36 @@
+{
+  "name": "sort-algorithms-typescript",
+  "description": "Basis sort array algorithms in TypeScript",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Mikhail Bodrov <connormiha1@gmail.com>",
+  "engines": {
+    "node": ">=5.2.0",
+    "npm": ">=3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Connormiha/sort-algorithms-typescript.git"
+  },
+  "scripts": {
+    "postinstall": "node node_modules/typings/dist/bin.js install",
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server",
+    "test": "node node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "0.13.22",
+    "karma-mocha": "^0.2.2",
+    "karma-notify-reporter": "^0.1.1",
+    "karma-nyan-reporter": "^0.2.4",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "ts-loader": "^0.8.1",
+    "typescript": "1.8.9",
+    "typings": "0.7.12",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

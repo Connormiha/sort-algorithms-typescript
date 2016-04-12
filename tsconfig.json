@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5"
+    },
+    "filesGlob": [
+        "./src/*.ts",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./typings/browser.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}
