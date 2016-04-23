@@ -6,6 +6,7 @@ import insertion from '../src/insertion';
 import insertion_v2 from '../src/insertion_v2';
 import cocktail from '../src/cocktail';
 import comb from '../src/comb';
+import heap from '../src/heap';
 
 const tests = {
     bubble,
@@ -13,7 +14,8 @@ const tests = {
     insertion,
     insertion_v2,
     cocktail,
-    comb
+    comb,
+    heap
 };
 
 Object.keys(tests).forEach((item: string)=> {
