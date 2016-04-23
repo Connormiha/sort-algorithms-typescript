@@ -24,13 +24,13 @@
     "karma-notify-reporter": "^0.1.1",
     "karma-nyan-reporter": "^0.2.4",
     "karma-phantomjs-launcher": "^1.0.0",
-    "karma-webpack": "^1.7.0",
-    "mocha": "^2.4.5",
+    "karma-webpack": "1.7.0",
+    "mocha": "2.4.5",
     "phantomjs-prebuilt": "^2.1.7",
-    "ts-loader": "^0.8.1",
-    "typescript": "1.8.9",
-    "typings": "0.7.12",
-    "webpack": "^1.12.13",
+    "ts-loader": "0.8.1",
+    "typescript": "1.8.10",
+    "typings": "0.8.1",
+    "webpack": "1.13.0",
     "webpack-dev-server": "^1.14.1"
   }
 }
